@@ -1,14 +1,14 @@
 # get-fast-with-nlp-models
-we define the standard and common dataprocess module and code to improve the process coding nlp models.
+we define the standard and common data process module and code to improve the process coding nlp models.
 
 ## Features
 
 - define the input & output of the model, so all of you should do is to write your model code.
 - supply the common tools that you need in your projects.
-- 
+- Convention is better than Configuration
+- and more ...
 
 ## sequence-labeling models
-
 
 ### All of things you should do
 
@@ -20,7 +20,9 @@ pip install -r requirements.txt
 
 - Process your data to the file format
 
-> this is the sequence labeling task model, so if you process your data to the file format, you can fed the file to our model at free. And the model will return the specific format file to you. The following is the format of the input file
+> This is the sequence labeling task model, so if you process your data to the file format, you can fed the file to our model at free. The model will return the specific format file to you. 
+> 
+> The following is the format of the input file
 
 ```shell
 token1 token2 token3 ... tokenn\tlabel1 label2 label3 ... labeln
